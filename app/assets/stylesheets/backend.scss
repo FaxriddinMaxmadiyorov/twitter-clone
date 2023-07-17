@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+#container {
+  display: flex;
+}
+
+#navbar {
+  width: 20%;
+  background-color: bisque;
+}
+
+#feed {
+  width: 50%;
+  background-color: #008e55;
+}
+
+#trends {
+  width: 30%;
+  background-color: yellow;
+}
+
+#feed-owner {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-owner-left, .feed-owner-right {
+  flex: 50%;
+  border: 1px solid #554466;
+}
+
+.middle {
+  text-align: center;
+}
+
+#tweet {
+  display: flex;
+}
+
+#tweet-avatar {
+  flex: 10%;
+  border: 1px solid #115599;
+  background-color: brown;
+}
+
+#make-tweet {
+  flex: 90%;
+  border: 1px solid #002233;
+  background-color: antiquewhite;
+}
+
+.avatar-image{
+  cursor: pointer;
+  width: 50px;
+  border-radius: 14px;
+  object-fit: cover;
+  height: 50px;
+  margin: 6px;
+  box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
